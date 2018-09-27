@@ -29,10 +29,8 @@ class Bio extends React.Component {
         />
         <p>
           Written by <strong>Agustín Aliaga</strong>.{' '}
-          {/*<br/>
-           <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
-          </a> */}
+          <br/>
+          Follow me on <a target="_blank" href="https://github.com/agustinaliagac/">Github</a>, <a target="_blank" href="https://medium.com/@agustin.aliaga">Medium</a>, and <a target="_blank" href="https://www.linkedin.com/in/agustinaliaga/">LinkedIn</a>
         </p>
       </div>
     )
