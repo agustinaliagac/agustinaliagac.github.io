@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blogging!]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Sep 2018 16:55:06 GMT</lastBuildDate><item><title><![CDATA[JS guide for Java developers: Part 1 — scope, closures, global context, this, and undefined]]></title><description><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blogging!]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Sep 2018 17:06:46 GMT</lastBuildDate><item><title><![CDATA[JS guide for Java developers: Part 1 — scope, closures, global context, this, and undefined]]></title><description><![CDATA[
  Photo by  Caspar
 Rubin 
 on
@@ -2657,4 +2657,59 @@ it is to build a full REST Client with it. In “Part II”, we’ll build our U
 this app exploring “Android-core” options as well as libraries like “Butter
 knife”, and “Data-binding library”.&lt;/p&gt;
 &lt;p&gt;Remember you can clone/fork the project here:
-&lt;a href=&quot;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&quot;&gt;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;a href=&quot;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&quot;&gt;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Things to keep in mind before adding another software dependency to your project]]></title><description><![CDATA[In my work experience, one basic thing I learned about software engineering is that you don’t need to “reinvent the wheel” every time you…]]></description><link>https://agustinaliagac.github.io/things-to-keep-in-mind-before-adding-dependencies/</link><guid isPermaLink="false">https://agustinaliagac.github.io/things-to-keep-in-mind-before-adding-dependencies/</guid><pubDate>Fri, 20 Jan 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-f73e5.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.34965034965035%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB7ljuFKP/xAAbEAACAgMBAAAAAAAAAAAAAAABAgADERITIv/aAAgBAQABBQKxvXWCxY1ZLawDA//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AYj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFX/8QAGhAAAgIDAAAAAAAAAAAAAAAAABEBMQIQgf/aAAgBAQAGPwKFkipLIS6Xr//EABwQAQACAgMBAAAAAAAAAAAAAAEAETFBYXGR0f/aAAgBAQABPyFW2ZfTAqe0QfUbMCxfGnG49DU//9oADAMBAAIAAwAAABBzD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QD//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAgEBPxC6p//EABwQAQEAAgIDAAAAAAAAAAAAAAERADFBYSGB4f/aAAgBAQABPxCJGSBVJs55whQWCEldeF51jaRGNpxWJYtKjPvrJghBYEHt1lkJ2wz/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;dependencies&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-f8fb9.jpg&quot;
+        srcset=&quot;/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-e8976.jpg 148w,
+/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-63df2.jpg 295w,
+/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-f8fb9.jpg 590w,
+/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-85e3d.jpg 885w,
+/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-d1924.jpg 1180w,
+/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-f73e5.jpg 1430w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;In my work experience, one basic thing I learned about software engineering is that you don’t need to “reinvent the wheel” every time you want to achieve some functionality. Open source projects have revolutionized the way we work in that we can reutilize existing software in addition to collaborating with others devs. In the web-development ecosystem, there are plenty of frameworks and tools that already simplify things like user authentication, routes, templating (client-side and server-side), state-management, database queries, web sockets, etc. On the other hand, however, sometimes the existing solutions are just not good enough or it may be that there are no alternatives at all, but that’s a completely different story.&lt;/p&gt;
+&lt;p&gt;The ability to know when to implement the feature yourself and when to use an existing solution will be a crucial asset for your team. Adopting a new library, language or technology as a dependency to build your product without extensive research could become headache in the future, so you should always ask yourself at least these questions about it:&lt;/p&gt;
+&lt;h4&gt;Does it meet all your needs?&lt;/h4&gt;
+&lt;p&gt;Sometimes you’ll find a solution for your problem that does not cover all the specific features you need. In that case, you might have to deal with forking and extending it (if it’s an open source project), and this means greater time investments and costs. Are your team and the client prepared for this scenario?&lt;/p&gt;
+&lt;h4&gt;Is there any documentation?&lt;/h4&gt;
+&lt;p&gt;If so, is it well documented? Just as an example, one of the things I like the most about Django (web framework) is the quality they put into the docs. It’s remarkably easy to find the topics you need for the framework version you’re using. &lt;a href=&quot;https://docs.djangoproject.com/en/&quot;&gt;https://docs.djangoproject.com/en/&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Is it supported by a “big” community and/or a private company?&lt;/h4&gt;
+&lt;p&gt;Having a company or a community behind it helps a lot when you’re having trouble and need assistance from others. You may have to send a “help-desk” ticket (probably if it’s a paid service), find information on blogs or StackOverflow, or maybe even post a question to those sites. If you’re relying on the community to help you, your chances of being helped are proportional to the popularity of the software dependency.&lt;/p&gt;
+&lt;h4&gt;Is it an “external service”?&lt;/h4&gt;
+&lt;p&gt;If you rely on services like “Google Maps API”, “Facebook Graph API”, “Google’s Firebase”, etc. be aware that they may change in the future without notice, or they could just stop working at any time (temporarily or permanently). SaaS/BaaS solutions are great but you should think twice before setting them up as a critical piece of your system. Just as an example, read about what happened to Facebook’s Parse: (&lt;a href=&quot;https://techcrunch.com/2016/01/28/facebook-shutters-its-parse-developer-platform/&quot;&gt;https://techcrunch.com/2016/01/28/facebook-shutters-its-parse-developer-platform/&lt;/a&gt;).&lt;/p&gt;
+&lt;h4&gt;Is it actively maintained and improved?&lt;/h4&gt;
+&lt;p&gt;If hosted on Github, “Pulse” and “Graphs” tabs will give you an idea of the latest activity. You probably don’t want to set up an outdated library, because it could bring retrocompatibility issues to your project. Also, if it’s constantly evolving, sometimes it could mean you’ll have to update your code repeatedly.&lt;/p&gt;
+&lt;h4&gt;Is it tested?&lt;/h4&gt;
+&lt;p&gt;Some libraries use automated tools to build and test every change that is introduced (applying continuous integration tools like Travis CI, Circle CI, etc.). This makes the library more reliable.&lt;/p&gt;
+&lt;h4&gt;Are you compromising another dependency if you adopt this new library?&lt;/h4&gt;
+&lt;p&gt;Sometimes libraries don’t play well together.&lt;/p&gt;
+&lt;h4&gt;Will it affect your product’s performance, speed, size, etc.?&lt;/h4&gt;
+&lt;p&gt;You should always take this into consideration. In the “web environment”, a giant front-end library could affect the browser’s performance and also increase network transfer times. On the back-end side, you want to avoid server overloading. In the mobile world, things get even more critical because mobile phones don’t have as many resources as a desktop computer. In Android, an app that wastes memory and CPU is a real candidate to be killed automatically by the operating system.&lt;/p&gt;
+&lt;h2&gt;Finishing!&lt;/h2&gt;
+&lt;p&gt;Every product relies on dependencies (whether it’s an OS, a service, a framework, a library or some other kind of software). The goal is to pick the best ones to maximize your productivity, without affecting your product’s performance, scalability, and capacity to evolve over time.&lt;/p&gt;</content:encoded></item></channel></rss>
