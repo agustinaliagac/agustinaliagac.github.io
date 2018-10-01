@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blogging!]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 27 Sep 2018 18:39:17 GMT</lastBuildDate><item><title><![CDATA[JS guide for Java developers: Part 1 — scope, closures, global context, this, and undefined]]></title><description><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blogging!]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 01 Oct 2018 16:08:02 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I’m a software developer.]]></description><link>https://agustinaliagac.github.io/about-me/</link><guid isPermaLink="false">https://agustinaliagac.github.io/about-me/</guid><content:encoded>&lt;p&gt;I’m a software developer.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Project item 1]]></title><link>https://agustinaliagac.github.io/projects/gifly/</link><guid isPermaLink="false">https://agustinaliagac.github.io/projects/gifly/</guid><content:encoded></content:encoded></item><item><title><![CDATA[JS guide for Java developers: Part 1 — scope, closures, global context, this, and undefined]]></title><description><![CDATA[
  Photo by  Caspar
 Rubin 
 on
  Unsplash This post series is aimed at Java developers wanting to learn Javascript. It is
-an attempt to…]]></description><link>https://agustinaliagac.github.io/js-guide-for-java-devs-part-1/</link><guid isPermaLink="false">https://agustinaliagac.github.io/js-guide-for-java-devs-part-1/</guid><pubDate>Mon, 17 Sep 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*7aJPlxn8gwhI7JjcBFr-tQ.jpeg&quot;&gt;
+an attempt to…]]></description><link>https://agustinaliagac.github.io/blog/js-guide-for-java-devs-part-1/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/js-guide-for-java-devs-part-1/</guid><pubDate>Mon, 17 Sep 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*7aJPlxn8gwhI7JjcBFr-tQ.jpeg&quot;&gt;
 &lt;span class=&quot;figcaption_hack&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/photos/fPkvU7RDmCo?utm_source=unsplash&amp;#x26;utm_medium=referral&amp;#x26;utm_content=creditCopyText&quot;&gt;Caspar
 Rubin&lt;/a&gt;
 on
@@ -530,7 +530,7 @@ to &lt;code class=&quot;language-text&quot;&gt;true&lt;/code&gt; or &lt;code cla
 Lark 
 on
  Unsplash This is a quick story about how I created a simple but end-to-end e-commerce
-scraping web application…]]></description><link>https://agustinaliagac.github.io/building-an-ecommerce-scraper-with-node-js-and-react-js/</link><guid isPermaLink="false">https://agustinaliagac.github.io/building-an-ecommerce-scraper-with-node-js-and-react-js/</guid><pubDate>Thu, 12 Apr 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*zq7U7ZvY70-anopuDJTyZQ.jpeg&quot;&gt;
+scraping web application…]]></description><link>https://agustinaliagac.github.io/blog/building-an-ecommerce-scraper-with-node-js-and-react-js/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/building-an-ecommerce-scraper-with-node-js-and-react-js/</guid><pubDate>Thu, 12 Apr 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*zq7U7ZvY70-anopuDJTyZQ.jpeg&quot;&gt;
 &lt;span class=&quot;figcaption_hack&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/photos/W1B2LpQOBxA?utm_source=unsplash&amp;#x26;utm_medium=referral&amp;#x26;utm_content=creditCopyText&quot;&gt;Brooke
 Lark&lt;/a&gt;
 on
@@ -1017,7 +1017,7 @@ PhantomJS, but I’m afraid it would take a serious amount of RAM.&lt;/p&gt;
 &lt;h3&gt;Source&lt;/h3&gt;
 &lt;p&gt;Source:
 &lt;a href=&quot;https://github.com/agustinaliagac/crawl-io&quot;&gt;https://github.com/agustinaliagac/crawl-io/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How Docker worked for me as a software developer]]></title><description><![CDATA[A couple of years ago I heard for the first time about this new technology
-called “Docker”. I was intrigued, because I liked ideas like…]]></description><link>https://agustinaliagac.github.io/how-docker-worked-for-me-as-a-software-developer/</link><guid isPermaLink="false">https://agustinaliagac.github.io/how-docker-worked-for-me-as-a-software-developer/</guid><pubDate>Mon, 24 Jul 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*NH_Sd3Kd9lRrdEA80nQvjA.jpeg&quot;&gt;&lt;/p&gt;
+called “Docker”. I was intrigued, because I liked ideas like…]]></description><link>https://agustinaliagac.github.io/blog/how-docker-worked-for-me-as-a-software-developer/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/how-docker-worked-for-me-as-a-software-developer/</guid><pubDate>Mon, 24 Jul 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*NH_Sd3Kd9lRrdEA80nQvjA.jpeg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;A couple of years ago I heard for the first time about this new technology
 called “Docker”. I was intrigued, because I liked ideas like isolating
 application’s environments and I wanted to see how I could apply it to my
@@ -1249,7 +1249,7 @@ fast-evolving technology, I found it to be stable enough to my needs.&lt;/p&gt;
 &lt;p&gt;Using Docker makes infrastructure more manageable, and gives you awesome
 benefits like isolating dependencies, rapidly switching environments, fast
 moving teams, deployment automation, and “deployment confidence”.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Common Android scenarios with and without third-party dependencies, part 2: Layouts]]></title><description><![CDATA[In the last tutorial we’ve started our “dummy” project GiphyTrends, that called
-Giphy’s public REST API to get the data using two approaches…]]></description><link>https://agustinaliagac.github.io/common-android-scenarios-with-and-without-dependencies-part-2-layouts/</link><guid isPermaLink="false">https://agustinaliagac.github.io/common-android-scenarios-with-and-without-dependencies-part-2-layouts/</guid><pubDate>Mon, 27 Mar 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;In the last tutorial we’ve started our “dummy” project GiphyTrends, that called
+Giphy’s public REST API to get the data using two approaches…]]></description><link>https://agustinaliagac.github.io/blog/common-android-scenarios-with-and-without-dependencies-part-2-layouts/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/common-android-scenarios-with-and-without-dependencies-part-2-layouts/</guid><pubDate>Mon, 27 Mar 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;In the last tutorial we’ve started our “dummy” project GiphyTrends, that called
 Giphy’s public REST API to get the data using two approaches:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Android SDK approach : We used &lt;em&gt;AsyncTask&lt;/em&gt; to perform the blocking operation in
@@ -2110,7 +2110,7 @@ check out how we can do this natively (with SQLite and Content Providers) as
 well as using third-party projects (maybe an ORM, maybe Realm).&lt;/p&gt;
 &lt;p&gt;Remember you can clone/fork the project here:
 &lt;a href=&quot;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&quot;&gt;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Lessons learned from building a mobile app with Bluetooth Low Energy support]]></title><description><![CDATA[I’ve spent a couple of months working in a project where BLE support is critical
-for the client’s business as an android developer, side-by…]]></description><link>https://agustinaliagac.github.io/lessons-learned-on-mobile-ble-development/</link><guid isPermaLink="false">https://agustinaliagac.github.io/lessons-learned-on-mobile-ble-development/</guid><pubDate>Fri, 17 Mar 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*5poGnoitx0bH7zTn29LxcA.png&quot;&gt;&lt;/p&gt;
+for the client’s business as an android developer, side-by…]]></description><link>https://agustinaliagac.github.io/blog/lessons-learned-on-mobile-ble-development/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/lessons-learned-on-mobile-ble-development/</guid><pubDate>Fri, 17 Mar 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*5poGnoitx0bH7zTn29LxcA.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I’ve spent a couple of months working in a project where BLE support is critical
 for the client’s business as an android developer, side-by-side with an iOS
 developer. It was my first experience with BLE, and I have learned a couple of
@@ -2238,7 +2238,7 @@ start coding. This also means you should know what kind of limitations you’ll
 face within Android and iOS, so you get an idea about the technical feasibility
 of your product. If you know the rules, you’ll be able to build a complex (and
 awesome) bluetooth-capable app.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Common Android scenarios with and without third-party dependencies, part 1: REST Client]]></title><description><![CDATA[In this tutorial series I’ll be creating a very simple app called “GiphyTrends”
-that will demonstrate how to use some third-party libraries…]]></description><link>https://agustinaliagac.github.io/common-android-scenarios-with-and-without-dependencies-part-1-rest/</link><guid isPermaLink="false">https://agustinaliagac.github.io/common-android-scenarios-with-and-without-dependencies-part-1-rest/</guid><pubDate>Mon, 27 Feb 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;In this tutorial series I’ll be creating a very simple app called “GiphyTrends”
+that will demonstrate how to use some third-party libraries…]]></description><link>https://agustinaliagac.github.io/blog/common-android-scenarios-with-and-without-dependencies-part-1-rest/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/common-android-scenarios-with-and-without-dependencies-part-1-rest/</guid><pubDate>Mon, 27 Feb 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;In this tutorial series I’ll be creating a very simple app called “GiphyTrends”
 that will demonstrate how to use some third-party libraries. The libraries I
 chose are the ones that I found extremely useful in previous projects, and the
 app itself will be really simple so we can focus in showing the strong points of
@@ -2657,7 +2657,7 @@ it is to build a full REST Client with it. In “Part II”, we’ll build our U
 this app exploring “Android-core” options as well as libraries like “Butter
 knife”, and “Data-binding library”.&lt;/p&gt;
 &lt;p&gt;Remember you can clone/fork the project here:
-&lt;a href=&quot;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&quot;&gt;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Things to keep in mind before adding another software dependency to your project]]></title><description><![CDATA[In my work experience, one basic thing I learned about software engineering is that you don’t need to “reinvent the wheel” every time you…]]></description><link>https://agustinaliagac.github.io/things-to-keep-in-mind-before-adding-dependencies/</link><guid isPermaLink="false">https://agustinaliagac.github.io/things-to-keep-in-mind-before-adding-dependencies/</guid><pubDate>Fri, 20 Jan 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;a href=&quot;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&quot;&gt;https://github.com/agustinaliagac/GiphyTrends-AndroidExamples&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Things to keep in mind before adding another software dependency to your project]]></title><description><![CDATA[In my work experience, one basic thing I learned about software engineering is that you don’t need to “reinvent the wheel” every time you…]]></description><link>https://agustinaliagac.github.io/blog/things-to-keep-in-mind-before-adding-dependencies/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/things-to-keep-in-mind-before-adding-dependencies/</guid><pubDate>Fri, 20 Jan 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/dependencies-05fc6a58a8028a65c5d7f65a821b7234-f73e5.jpg&quot;
