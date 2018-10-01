@@ -64,5 +64,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+
+    if (value.split('/').length > 3) {
+      createNodeField({
+        name: `type`,
+        node,
+        value: value.split('/')[1],
+      })
+    }
   }
 }

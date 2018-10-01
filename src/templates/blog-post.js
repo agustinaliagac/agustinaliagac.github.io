@@ -20,6 +20,8 @@ class BlogPostTemplate extends React.Component {
       title: post.frontmatter.title,
     };
 
+    const { location: { pathname }} = this.props;
+
     return (
       <Layout location={this.props.location}>
         <Helmet
@@ -45,34 +47,37 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          <li>
-            {
-              previous &&
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            }
-          </li>
-          <li>
-            {
-              next &&
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            }
-          </li>
-        </ul>
-        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+        { pathname !== '/about-me' &&
+          <div>
+            <ul
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                justifyContent: 'space-between',
+                listStyle: 'none',
+                padding: 0,
+              }}
+            >
+              <li>
+                {
+                  previous &&
+                  <Link to={previous.fields.slug} rel="prev">
+                    ← {previous.frontmatter.title}
+                  </Link>
+                }
+              </li>
+              <li>
+                {
+                  next &&
+                  <Link to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                }
+              </li>
+            </ul>
+            <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+          </div>
+        }
       </Layout>
     )
   }
