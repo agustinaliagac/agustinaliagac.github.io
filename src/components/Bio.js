@@ -13,7 +13,7 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginBottom: rhythm(0),
         }}
       >
         <img
@@ -28,9 +28,9 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Agustín Aliaga</strong>.{' '}
+          <strong>Agustín Aliaga</strong>
           <br/>
-          Follow me on <a target="_blank" href="https://github.com/agustinaliagac/">Github</a>, <a target="_blank" href="https://medium.com/@agustin.aliaga">Medium</a>, and <a target="_blank" href="https://www.linkedin.com/in/agustinaliaga/">LinkedIn</a>
+          Software Developer
         </p>
       </div>
     )
