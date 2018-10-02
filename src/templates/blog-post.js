@@ -47,7 +47,7 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-        { pathname !== '/about-me' &&
+        { pathname.startsWith('/blog') &&
           <div>
             <ul
               style={{

@@ -1,1 +1,5 @@
-I'm a software developer.
+I'm a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android developer. During this period of time, I worked for a couple of startups, where I learned how to work in a fast-moving work environment.
+
+I became a goal-oriented person, with a great passion for what I do. Later I decided I wanted to expand my knowledge in other fields, so I started learning web development with Javascript. As a consequence, I got to participate in web projects and gain a good amount of experience.
+
+As of today, I'm still constantly learning and hoping I can make enough time to get into AI / Machine Learning. Sometimes I also write on my blog about things that I care about. I also enjoy music, playing drums and guitar (or at least I try), and suck at 99% of sports.

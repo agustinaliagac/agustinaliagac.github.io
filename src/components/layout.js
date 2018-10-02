@@ -13,7 +13,10 @@ class Template extends React.Component {
     const { location, children } = this.props
     let header
 
-    const route = _.find(_.values(routes), item => item.path === location.pathname);
+    const route = location.pathname === '/' ?
+      routes.root :
+      _.find(_.values(routes), item => item.path !== '/'
+        && (location.pathname === item.path || location.pathname === `${item.path}/`))
 
     if (route) {
       header = (
@@ -24,16 +27,7 @@ class Template extends React.Component {
             marginTop: 0,
           }}
         >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            { route.title }
-          </Link>
+          { route.title }
         </h1>
       )
     } else {
