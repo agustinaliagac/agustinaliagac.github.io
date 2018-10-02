@@ -11,4 +11,4 @@ export default {
         path: '/about-me',
         title: 'About Me',
     }
-};
+}

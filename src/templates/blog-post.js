@@ -14,13 +14,13 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
-    const disqusShortname = "agustin-aliaga";
+    const disqusShortname = "agustin-aliaga"
     const disqusConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
-    };
+    }
 
-    const { location: { pathname }} = this.props;
+    const { location: { pathname }} = this.props
 
     return (
       <Layout location={this.props.location}>

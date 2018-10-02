@@ -26,6 +26,8 @@ class BlogIndex extends React.Component {
         <Bio />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
+          const cover = get(node, 'frontmatter.cover.publicURL')
+
           return (
             <div key={node.fields.slug}>
               <h3
@@ -37,8 +39,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              { cover && <Link style={{ boxShadow: 'none' }} to={node.fields.slug}><img src={cover} /></Link> }
             </div>
           )
         })}
@@ -66,7 +67,10 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
-            title
+            title,
+            cover {
+              publicURL
+            }
           }
         }
       }

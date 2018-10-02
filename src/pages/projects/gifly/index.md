@@ -1,5 +1,7 @@
 ---
 title: "GiFly"
+date: "2017-04-27T23:46:37.121Z"
+cover: "giflyweb.png"
 ---
 <br />
 A mobile app for an e-bike. With this app, the user can activate it securely (using Bluetooth low energy), control its lights, assistance levels and lock system.
@@ -8,6 +10,9 @@ I also collaborated on the web platform for both back end tasks and front end.
 
 #### Tech stack
 Android, Java, Bluetooth Low Energy, Firmware manipulation, AngularJS, Flask, Python, Javascript
+
+#### URL
+http://giflybike.com/
 
 #### Screenshots
 

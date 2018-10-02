@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Blogging!',
+    title: 'Agus Aliaga',
     author: 'Agustín Aliaga',
     description: 'A blog where I (sometimes) publish.',
     siteUrl: 'https://agustinaliagac.github.io',
@@ -79,8 +79,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Blogging!`,
-        short_name: `Blogging!`,
+        name: `Agus Aliaga`,
+        short_name: `Agus Aliaga`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
