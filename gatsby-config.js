@@ -102,5 +102,6 @@ module.exports = {
         head: true
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
