@@ -39,11 +39,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f3a59088970795a17f3e4ebcd1867b5e"
+    "revision": "8a77b050455027cfaad6f96619f4ad53"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "6f952ca5785b1e66222fcafef5ee0a8c"
+    "revision": "a9dca36c731cd8b8928c5605a39b3db5"
   },
   {
     "url": "0.3c5fd8dc8e26d3cb63eb.css"
