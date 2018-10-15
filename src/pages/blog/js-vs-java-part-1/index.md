@@ -1,5 +1,5 @@
 ---
-title: "JS guide for Java developers: Part 1 — scope, closures, global context, this, and undefined"
+title: "JS vs Java: Part 1 — scope, closures, global context, this, and undefined"
 date: "2018-09-17T23:46:37.121Z"
 ---
 
