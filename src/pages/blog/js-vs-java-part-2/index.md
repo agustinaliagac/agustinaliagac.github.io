@@ -198,6 +198,8 @@ And let's assume that Animal has the property 'name'. What would happen if we wa
 
 This is how it works for both JS and Java but of course, in different ways. In Javascript, this path is runned using the prototype chain, recursively accessing the object's \_\_proto\_\_ reference.
 
+**In a way, we could say that class-based languages establish inheritance through classes and prototype-based languages through objects.**
+
 *Read more:*
 * https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
