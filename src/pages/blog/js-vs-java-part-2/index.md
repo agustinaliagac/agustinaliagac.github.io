@@ -329,6 +329,21 @@ define(['dependency1', 'dependency2'], function (d1, d2) {
 ##### Natively:
 - ES2015 Modules: It was added to the language specification in ES2015. Using the *import* keyword we can get other module's public elements (which are exported with the *export* statement). ES2015 browser support has been progressively adopted, and at this point, ES2015 modules are in fact supported by some browsers. Its syntax is fairly simple and it allows synchronous and async loading. At this moment also, this kind of modules are not supported on the stable Node.js release. However, just as any other ES2015+ feature, you can use a transpiler such as Babel to get the newest language features.
 
+```js
+
+// Importing modules
+import someModule from 'someModule';
+
+// Default export
+export default {
+    somePublicFunc: () => {},
+}
+
+// Named export
+export const someObj = {};
+
+```
+
 *Read more:*
 * https://docs.oracle.com/javase/tutorial/java/concepts/package.html
 * https://auth0.com/blog/javascript-module-systems-showdown/
