@@ -6,7 +6,7 @@ date: "2018-10-15T23:46:37.121Z"
 ![](./lila-de-lila.jpg)
 <span class="figcaption_hack">Photo by [Photo by Lila de Lila on Unsplash](https://unsplash.com/)</span>
 
-This is the second article from the "JS vs Java" series, where we discuss some important differences in each programming language.
+This is the second article from the "JS vs Java" series, where we discuss some important differences between both languages.
 [In the first article we covered:](/blog/js-vs-java-part-1/)
 - scope
 - closures
@@ -19,7 +19,7 @@ Today we'll be diving into how objects are created in Javascript, and how it emb
 
 #### What is OOP?
 Object Oriented Programming is a programming paradigm (a way of solving problems, thinking solutions and building software) that implements "objects".
-Objects, which are representations of real life entities (concrete or abstract), usually have data properties (sometimes named "attributes") and functions/procedures called "methods". In practice, multiple languages support OOP on different degrees. Notice that Java and JS are considered to be "multi-paradigm" because they also adopt concepts from funcional, and imperative programming. Let's explore how they implement OOP.
+Objects, which are representations of real-life entities (concrete or abstract), usually have data properties (sometimes named "attributes") and functions/procedures called "methods". In practice, multiple languages support OOP on different degrees. Notice that Java and JS are considered to be "multi-paradigm" because they also adopt concepts from functional, and imperative programming. Let's explore how they implement OOP.
 
 #### Class-based vs Prototype-based
 Class-based languages **like Java** define the object's structure from a class, which is essentially a blueprint. Objects are just instances of this class, meaning that they all have the same attributes and methods.
@@ -81,7 +81,7 @@ __proto__: Object
 **In Java**, objects can be created from its class using the *new* operator. This will call a class constructor. Remember that constructor methods can be overloaded using different signatures (method name, and arguments types, count and order). If none is provided, Java uses a default object constructor.
 
 **In Javascript**, there are multiple ways for creating an object:
-1. **Object literals:** Using object literals we can easily create objects "on the fly", adding any properties we want without following a specific blueprint. It is a powerful, yet dangerous in some scenarios, approach that comes out of the box in JS.
+1. **Object literals:** Using object literals we can easily create objects "on the fly", adding any properties we want without following a specific blueprint. It is a powerful feature that comes out of the box in JS.
 
 ```js
 var movie = {
@@ -90,7 +90,7 @@ var movie = {
 };
 ```
 
-2. **Constructor Function:** It is a special type of function that is used in conjuntion with the *new* operator to create instances from a blueprint. Constructor functions implicitly return the created object (bound to the *this* object), so you only need to add properties to *this*. Do not call this function without the *new* keyword!
+2. **Constructor Function:** It is a special type of function that is used in conjunction with the *new* operator to create instances from a blueprint. Constructor functions implicitly return the created object (bound to the *this* object), so you only need to add properties to *this*. Do not call this function without the *new* keyword!
 
 ```js
 function Movie(name, genre) {
