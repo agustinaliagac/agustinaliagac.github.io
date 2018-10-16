@@ -413,10 +413,10 @@ export default (items, searchTerm) => {
 ![](js.png)
 
 If you ever read the project’s code, you’ll notice it doesn’t use the same
-standards across the whole project. That’s because I wanted to showcase both ES6
-on React.js and ES5 (with bits of ES6) on Node.js.
+standards across the whole project. That’s because I wanted to showcase both ES2015
+on React.js and ES5 (with bits of ES2015) on Node.js.
 
-ES6 brings good features to the table, such as classes, arrow functions,
+ES2015 brings good features to the table, such as classes, arrow functions,
 block-scoped variables, template literals, enhanced object literals, object
 destructuring, default function arguments, etc. However, I thought it would be
 interesting to stick a little bit with ES5 on the back end to showcase the
