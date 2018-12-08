@@ -1,6 +1,303 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Agus Aliaga]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 16 Oct 2018 21:27:20 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android…]]></description><link>https://agustinaliagac.github.io/about-me/</link><guid isPermaLink="false">https://agustinaliagac.github.io/about-me/</guid><content:encoded>&lt;p&gt;I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android developer. During this period of time, I worked for a couple of startups, where I learned how to work in a fast-moving work environment.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Agus Aliaga]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 08 Dec 2018 19:42:17 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android…]]></description><link>https://agustinaliagac.github.io/about-me/</link><guid isPermaLink="false">https://agustinaliagac.github.io/about-me/</guid><content:encoded>&lt;p&gt;I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android developer. During this period of time, I worked for a couple of startups, where I learned how to work in a fast-moving work environment.&lt;/p&gt;
 &lt;p&gt;I became a goal-oriented person, with a great passion for what I do. Later I decided I wanted to expand my knowledge in other fields, so I started learning web development with Javascript. As a consequence, I got to participate in web projects and gain a good amount of experience.&lt;/p&gt;
-&lt;p&gt;Currently I’m still learning and hoping I can make enough time to get into AI / Machine Learning. Sometimes I also write on my blog about things that I care about. I also enjoy music, playing drums and guitar (or at least I try), and suck at 99% of sports.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS vs Java: Part 2 — Object creation, inheritance, encapsulation, and modules]]></title><description><![CDATA[
+&lt;p&gt;Currently I’m still learning and hoping I can make enough time to get into AI / Machine Learning. Sometimes I also write on my blog about things that I care about. I also enjoy music, playing drums and guitar (or at least I try), and suck at 99% of sports.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Santex Metrics]]></title><description><![CDATA[Tech stack Javascript (ES2015), React.js, Node.js, GraphQL, Apollo, ESLint, Lodash FP, Firebase Auth, MySQL, Sequelize ORM, Functional…]]></description><link>https://agustinaliagac.github.io/projects/santex-metrics/</link><guid isPermaLink="false">https://agustinaliagac.github.io/projects/santex-metrics/</guid><pubDate>Fri, 30 Nov 2018 23:46:37 GMT</pubDate><content:encoded>&lt;br /&gt;
+Internal project at Santex that allows PMs to track their project&apos;s metrics (rework, completion, margin, release count, etc.). These metrics are visualized afterwards in another platform called Grafana. It was a good opportunity for me to learn GraphQL and use it later for bigger projects.
+This small (but end-to-end app) handles data queries and mutations, customized authentication through Firebase, local sorting and filtering, Material UI components, and autocomplete components using Downshift. It was also a good place to start playing with functional programming concepts.
+All the data is sorted, and filtered through data pipelines which are composed curried functions with lodash/fp.
+&lt;h4&gt;Tech stack&lt;/h4&gt;
+&lt;p&gt;Javascript (ES2015), React.js, Node.js, GraphQL, Apollo, ESLint, Lodash FP, Firebase Auth, MySQL, Sequelize ORM, Functional Programming&lt;/p&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-ef9ea.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.26041666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAClklEQVQozzWQWUhUARSG74P0nFQvuStm+OBCi5NLoSnjmjlMLpSmTnptysw09yWdptxqNM3MNc3cwMyZUUvKxsatMCpCyh4KrSBa6M0gJr9uUT+cp/Pzcc4nrP34iaakDPFwLDWaCqZMs4zox3j38RN/MmsyobugIUi2m9IskdH+Tu4M3uTe+Divnj9jZmaBL9++/+2ur68jrHz4jKhSkZ2WjK6mmofTc4zqjbxdfY/F8ot58zSXJWCwr4yKs5noB3sw3B5izDjGg8lJqT/D139Ai8WCMP34OVFRcgqy1LS3tHDftMBwfx8jVy7ywjTJ08UF6rSVyAP80Bbloh8eZHR4CP3ICGMGI3NPFlmzrPM/QntPP1k5xTTprqJOTycrt5RbXTdoKiuks17HnHmeod6bVJaWcE1Xi3FUAhkNGCTg1IMpulrbMHR3s7z8htevlxFaO25xXlvPidQMPJwd2OXmSnFmBtEREYSHxdDb1EJDeT7q5CRUByNpbmjg0aMZVldWWVp6yVlVCkGOdsh2yfD08EYQUzJQhoaSJL3do82nNvsY0cGBKOT7iQwJQSkPYoebs7SPoPRQOM1aDRMTdzGbzSgUCnzdtxMZ4I+LiysO9g4I4YH7CPHdQ7mYiKHxHPcH2ujTVdNadYHGqipUCXH4+8hITzpKQ0EOdUV55KWJKAICsLLawJZNm3F1csbLyxtbW1sEZycnHO3s8fb0Ilutllw2oikqRkw8QkpCPGdEkdPHT1JQWMn1lk7OSy7TpctS/X3YZmuD9UZrvN3dJc+9xERFI7jYO2K/1QYbaeKVsXR09VFQVE5MZJj0dhDq+Fj27vbBw3Mn6oyTqFNTiAuTkyopOhV7AGWgHwkKJd3dA1yq1vEbD/bDPLcGIhYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-1a291.png 148w,
+/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-2bc4a.png 295w,
+/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-fb8a0.png 590w,
+/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-526de.png 885w,
+/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-fa2eb.png 1180w,
+/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-08f6a.png 1770w,
+/static/screenshot1-96dd64d6e7c3b886417ff71979f44593-ef9ea.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-c1af7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.91922876498176%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz31RW06EQBDkSgYSTeS98wYWVvEe3sgD+LF7w7ZqZAiu0Y/K0FXV1T1DdjVKbkRd7rhW5Y/6F5rq+7RabmOI/Z8hyMcUJHvuemmMkfqADiLPSmtpnZPGWtRWSqXjdwR4ehp4Ou/FDIOUbSuZBTkiwMMUIAQYl/NZHGpqA7QBvAdvlIo+B373Ay+Xi7y9rvBryU6nkziaYTKYpgEPk96+LYMB6olLUOilNmK7aZqEWRmFgC0YSjDMo1bYhiHUIsdrcegGBqW+ZVlkXdc4JGMjheMGnJbqNIgB9B43TNo8zzGU+n7ldK04HXXa0G9N+7McNqSHmzOM0Azs+z6a79+HPIfFt4KRYH0P8gx3CK74l/M8l6Io/gT16PnH9wCtLnJ5f3qUL6SFS38rwXGpAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-1a291.png 148w,
+/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-2bc4a.png 295w,
+/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-fb8a0.png 590w,
+/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-526de.png 885w,
+/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-fa2eb.png 1180w,
+/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-08f6a.png 1770w,
+/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-c1af7.png 1919w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-ef9ea.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.739583333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABS0lEQVQoz3WRW3KCQBRE2YVaGl7DUxYQq+DDiDzE8GFVNMn+F9LpnoilZfJxvDNy76FncM4mwMWEuHgvV1yc3d/6HQbEx1fg49P3bujZRT2ai2NbP6IIYxrDWfk+PGPg3uGZCGGa4q1pUfc92sMB290O5XaLisR5DjcMb/iUhRS7dDmGgoSbiDXmA5EmCfIsw0BZ17YYKTwdjxiGAe1+j2K9hqFomlHvmv9FkYETBAEXESQO2aQqUiZ8p0TCuq7RU3rUvuvssOam3piBEobQvKMfCfU2W69yNYzjaAV7pprWTdM8CNWfMWHOa9DeCvWG+4TaZ0zYU9AyoYT2uNf1X0JhhfdHnghJTumJx+yIUh1YJe15r0VRPAh1PUL3ehMq3ZRwqpvN5oGyLFFVlb0On19Us1OvHJ6+8mKxwH/M5/MnZrPZcx9ZkdflEj/pchBFnjPKlwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-1a291.png 148w,
+/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-2bc4a.png 295w,
+/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-fb8a0.png 590w,
+/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-526de.png 885w,
+/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-fa2eb.png 1180w,
+/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-08f6a.png 1770w,
+/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-ef9ea.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-ef9ea.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.427083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAA+klEQVQoz62Pa26EMAyEc6NKILWqSsJjSciDwi7bU/RGPcIue8fpGMEK9V8lfnyyPbHHjrq7FrOzmE3x5L5EvVLsWOtyjfaEx2fC7B1uvsPPeYB6bxoY51DsqEKE7jp8WIvSexjmW63X3FDX7NVti4r5KSZUzFXHpj5GBDZFPgjnYUBkvbyFgEREdxyQPk+jQEQP1K+XC76mCX1KUA0vdHzc6MSIseWwpeFSrzjW9g8yM44j+r5fepQIUnhuCvxqlGu5eTNL3CqasDcXRJO5iddN03XpVVpr1HWNsiyfGGP+xTYnXirLMhxFTlSe5ziCjLwcakiz77dX/ALApj//baEu7QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-1a291.png 148w,
+/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-2bc4a.png 295w,
+/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-fb8a0.png 590w,
+/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-526de.png 885w,
+/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-fa2eb.png 1180w,
+/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-08f6a.png 1770w,
+/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-ef9ea.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[RapiHogar]]></title><description><![CDATA[Tech stack Javascript (ES2015), React Native, Redux, Redux Saga, Redux Persist, React Navigation Screenshots URL https://www.rapihogar.com…]]></description><link>https://agustinaliagac.github.io/projects/rapihogar/</link><guid isPermaLink="false">https://agustinaliagac.github.io/projects/rapihogar/</guid><pubDate>Tue, 20 Nov 2018 23:46:37 GMT</pubDate><content:encoded>&lt;br /&gt;
+RapiHogar is a local startup that allows people to quickly find professionals for common home problems.
+I created an intro wizard for workers to register their accounts. It handles offline data (redux-persist), forms, image uploads, signatures, API interacation and navigation. I also fixed some bugs by enforcing best practices, improving the app&apos;s overall performance. Improved code quality by adding standard ESLint configs.
+&lt;h4&gt;Tech stack&lt;/h4&gt;
+&lt;p&gt;Javascript (ES2015), React Native, Redux, Redux Saga, Redux Persist, React Navigation&lt;/p&gt;
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot1-9970ce089819fccdfadb6c658319e6b5-49f97.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot1-9970ce089819fccdfadb6c658319e6b5-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot1-9970ce089819fccdfadb6c658319e6b5-1a291.png 148w,
+/static/screenshot1-9970ce089819fccdfadb6c658319e6b5-2bc4a.png 295w,
+/static/screenshot1-9970ce089819fccdfadb6c658319e6b5-fb8a0.png 590w,
+/static/screenshot1-9970ce089819fccdfadb6c658319e6b5-49f97.png 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot2-7252f2eaa522730d0f82d7249c4282b6-49f97.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAIAAAAGkY33AAAACXBIWXMAAAsSAAALEgHS3X78AAAC/UlEQVRIx9VVS08TURTmZ7gzMQINRDegMWFB8BGICBKJcW+QuHFLJArowkRNjFExwYAPBKElbRRFF8QQXrYDlVfBAoW29DHQKSXTybxn7kw902lRyUAruPHLzc3Nzf3mfOe759zJIQjC7XYHAgG0JxRF4Xne7/dvbW1tbm7GCGIdx3NEUaQ1MHBC1qCdVI0AfCEJOKQgJPB8TuIA0MixGDk8Mun1hSadLgc2EwytIxllS8bxSK954POXEZht7wc/fhriOAH2QWpm8g5Azn8hWzdDn/XF3pztA6nIsRiYT4DR2QRkGOYPsn5PGWMa56yXwX6uCgCaoXT2SU7ZoCaU7KAnmCKLgqhDzzwjEmo6MnwpGAz6fD6PxxOPx/cje1u8pgp0Kb8WybZI7eyUHcZxq83a3//BYrFgmEPLguNkUUQwkpDT7WYQ2Y5hldWVNVUVp4qPNzc1wg7J8yxCMCiKgnaFNuSg3AXBgDw15aytvXj5UnVFWcnztlY1GvW9aA92dYd7zVycAg8TuxRPMrL9W54pt7DAlH/40MOnj9jBr/YjudOlp51FJ8RIRHdiV3IoHHr99k1Xd3dn58uJ75hKxsnRMcqBUdiEKkkZ3F5cdN+62XDvTtOrtta52RnYkVQVzIEhSpIkahMAPDMgO8ZHr1w4d72+ru5afVt7h2YYy9JAUlX90QImzFBCBuQVr/9ZR49j3jc87pxfWhE8nuXmltX7D0KPnygsmyHn4TF7cWn51RsNJWcq23ut7NDQZNFJV3XNdNlZKRrNQN4gCLPVZu7rs/UPLCx5EjzHLC9zK6uc16v+XhhQVgilRrJ/D/z0Ip4XKUpiGJllEcchmlb1wthWm1zIZJyw9BFmS+RdDz0zm+4qlpUpig8Eef+auBFBDKPqxqbJukh6zoUdzXdV1WCmQm/j7XRkmpZiMSEU5tcCAr4uk6QhmZlfmCg4Nlt+3pFn8rXcTT+98ABIkuaNqiQUBH8kQ3vhT8cs/ID4tMull+2BDcsW//6q/kPyT42/7WH5rQSJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot2-7252f2eaa522730d0f82d7249c4282b6-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot2-7252f2eaa522730d0f82d7249c4282b6-1a291.png 148w,
+/static/screenshot2-7252f2eaa522730d0f82d7249c4282b6-2bc4a.png 295w,
+/static/screenshot2-7252f2eaa522730d0f82d7249c4282b6-fb8a0.png 590w,
+/static/screenshot2-7252f2eaa522730d0f82d7249c4282b6-49f97.png 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot3-39a2e81c4b845e8467c90b5299e06e07-49f97.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAIAAAAGkY33AAAACXBIWXMAAAsSAAALEgHS3X78AAACjUlEQVRIx+1VS2saURT2f3QR6G9xJxSCpXbjQkKoUlwU/4BbBUWXQkmFVNNSxdRHSpUEi7QpCrEmNjZqHGfsjKZoRB2dGcexPTO3Gd+vZtuPuzjeud89r+8eFbVaLZfL4Tg+WApBEBiGKZfLcJ6iqEa9XqUoBcdxnU6Hprtwgp/h8Py4zTMS+v2+MBiwDKP4fQ+I5Fa7c5G9IsnadYkolX4Wr3EMq5RxEjbT33JU9VehiOfzWKVSJambaXKj0dz3BPde+Y8+fAqGT/yBaOAwdnxymkyd778+9B6E/IGPb98dvQ8en35Nw/nhcDgiA1BKU1HBIagTpD2+g/JHfJEMNWNZDsrATaAvY3wXfMAOy7J/yfBDjmQdwGG4ZSF5+V0ryFNpb0ZOJpMghkUhzCcjJwRBKJXKYrEIdjabjUQi8qfV5Gg0ajabMQwDW6/XOxwOMEDCchTLwvb5fBaLBcJOpVIajQZ2QqFQPB5H3VvhWafT2Ww2MLRaLVwEkoArYrGYx+NZ4ZmmaZVKVa/X4fUZjUb45Ha7DQaDy+VCwphPBg9g2+12IEOdTCZTOBz2er3pdLoB6m825eJPkxEzkUio1WqSJCHaTCbjdDqBidIBLCwYehVWqxVym20MwmqRIEmhuYOwrkjmivHftb2ajLrPr42J9yz2CfIcX3MhjU9x9XpCn78bQ8CGyOU1M4+WTU+h2x3QtAD3SWvQbk/zpYowBPFj99nVc+Olbufm4M0dudfjb297+QL9/ZLBygJND5ES5f5JLeicnX1+sHX+aPvL1sPCC9OEZ3DIt1qiAa9Pej0jSGSmhGWfPM3t7F5sP6Ze7o1yFlhW4DjoADI2yHn9/oohoCXP7Xv9V/0nb4A/pVIBxPxMdrEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot3-39a2e81c4b845e8467c90b5299e06e07-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot3-39a2e81c4b845e8467c90b5299e06e07-1a291.png 148w,
+/static/screenshot3-39a2e81c4b845e8467c90b5299e06e07-2bc4a.png 295w,
+/static/screenshot3-39a2e81c4b845e8467c90b5299e06e07-fb8a0.png 590w,
+/static/screenshot3-39a2e81c4b845e8467c90b5299e06e07-49f97.png 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/screenshot4-71a82b654130a662987d0c6eab1a3db5-49f97.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAIAAAAGkY33AAAACXBIWXMAAAsSAAALEgHS3X78AAACuElEQVRIx2P4+vXLmzev3r9/+58Q+Pv3z5vXr37++P7r14/fv358+/qZITuvMSO7LievsaikvbCkrRBEwlFbUUkHiFHcBkQFRa1AZUD1eQXNBYUtQAYDr5Axn5AxO7cuJ68+r6ARF58BF78Bj6ARj4AhkMvBq8fNbwhkQxCvoDEYAWWN+ISMGOSUHOSVHc2twtS1PMSlrFQ0XJXUXaTlbWUU7CVlbbT1vYGysooOQGWYiEFa3k5Cxrqsoru1fUZ1bX9n9+yUtJr4pIq6xklpmbXpmXVAEU+fVBEJC1lFe6BiZATSLClrq6DiZGASYGkb4eyWYGgSYGUXYW4dZmIerKzuausYra7tCXQFmk6QZqCokppLYUlHeVVPcVlnR/fsmvoJFdW9wWF5JeVdBcVtQAVApwF9gUWzlJwt0FeWNuH2TjEWYNuATggMybG2jwQKGpsFKQODQM4OUydIs4SMjaqme1lld3PrtIqavsychtKK7rqGSUBuZXUv0DlunkmikpbA4MGiGYiBTtIx8NXR99E39tfU8dQ18AUGvp6hH9BaPUNfoDagZjEpKwkMb4OcDYwJO8cYfSN/E4tgIDI0DQJqAwYYUD/QOD0jPxOLEAvrcE0dL6B+GQVUzUCzXdwTLGzC7J1igYrsnGLsHKOBrgXqd3SJswAHB5Chre8D9CNyyIGcDQwPEUkLMWkriPPAyFJU0gIYyBCuKIhrCdSJxc8QbwPdAyZxIuwBRjYa1TyqeVTzAGqWkbeThSEZkjQDVYvK2/PJO/DLOwBJcbAIA5E6xeTtnRUtC+UNsuQMChQMTRRtxInULCdvxy9nX6Fm9tTR4Ya7x0MbmxAFM0F5e6I0Az0pIGefq2p21tT8kLX9KVMLPwVzISI1A5GUvJ2KvK2urKWOjAWQVJC3lSIptCXBPocgKbAIAKlQxmrWB4gZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;screenshot4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/screenshot4-71a82b654130a662987d0c6eab1a3db5-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot4-71a82b654130a662987d0c6eab1a3db5-1a291.png 148w,
+/static/screenshot4-71a82b654130a662987d0c6eab1a3db5-2bc4a.png 295w,
+/static/screenshot4-71a82b654130a662987d0c6eab1a3db5-fb8a0.png 590w,
+/static/screenshot4-71a82b654130a662987d0c6eab1a3db5-49f97.png 720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h4&gt;URL&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.rapihogar.com.ar&quot;&gt;https://www.rapihogar.com.ar&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS vs Java: Part 2 — Object creation, inheritance, encapsulation, and modules]]></title><description><![CDATA[
  Photo by  Photo by Lila de Lila on Unsplash This is the second article from the “JS vs Java” series, where we discuss some important…]]></description><link>https://agustinaliagac.github.io/blog/js-vs-java-part-2/</link><guid isPermaLink="false">https://agustinaliagac.github.io/blog/js-vs-java-part-2/</guid><pubDate>Mon, 15 Oct 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -3833,109 +4130,6 @@ I collaborated in the project setting up all the required infrastructure for the
 /static/sublimis-2cd6e2226e89c8af0cb45bb2f90c56d2-fa2eb.png 1180w,
 /static/sublimis-2cd6e2226e89c8af0cb45bb2f90c56d2-915e1.png 1254w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[TalkToMe]]></title><description><![CDATA[Tech stack Android, Java Screenshots]]></description><link>https://agustinaliagac.github.io/projects/talktome/</link><guid isPermaLink="false">https://agustinaliagac.github.io/projects/talktome/</guid><pubDate>Thu, 27 Aug 2015 23:46:37 GMT</pubDate><content:encoded>&lt;br /&gt;
-A mobile messaging app for Android and iOS. This app allows the user to schedule audio and text messages for the future to your contacts.
-&lt;h4&gt;Tech stack&lt;/h4&gt;
-&lt;p&gt;Android, Java&lt;/p&gt;
-&lt;h4&gt;Screenshots&lt;/h4&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 299px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 185.28428093645485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;talktome&quot;
-        title=&quot;&quot;
-        src=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png&quot;
-        srcset=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-58d0d.png 148w,
-/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-bd2b0.png 295w,
-/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png 299w&quot;
-        sizes=&quot;(max-width: 299px) 100vw, 299px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 299px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 185.28428093645485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;talktome&quot;
-        title=&quot;&quot;
-        src=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png&quot;
-        srcset=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-58d0d.png 148w,
-/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-bd2b0.png 295w,
-/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png 299w&quot;
-        sizes=&quot;(max-width: 299px) 100vw, 299px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 299px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 185.28428093645485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;talktome&quot;
-        title=&quot;&quot;
-        src=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png&quot;
-        srcset=&quot;/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-58d0d.png 148w,
-/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-bd2b0.png 295w,
-/static/talktome-02ddf0fb1a0cee192dc3dd7c88f17cea-28feb.png 299w&quot;
-        sizes=&quot;(max-width: 299px) 100vw, 299px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
