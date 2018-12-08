@@ -17,6 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
                 node {
                   fields {
                     slug
+                    type
                   }
                   frontmatter {
                     title
@@ -32,23 +33,33 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors)
         }
 
+        const createPostPages = posts => {
+          _.each(posts, (post, index) => {
+            const previous = index === posts.length - 1 ? null : posts[index + 1].node;
+            const next = index === 0 ? null : posts[index - 1].node;
+  
+            createPage({
+              path: post.node.fields.slug,
+              component: blogPost,
+              context: {
+                slug: post.node.fields.slug,
+                previous,
+                next,
+              },
+            })
+          })
+        };
+
         // Create blog posts pages.
         const posts = result.data.allMarkdownRemark.edges;
 
-        _.each(posts, (post, index) => {
-          const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-          const next = index === 0 ? null : posts[index - 1].node;
+        const blogPosts = posts.filter(({ node: { fields: { type } } }) => type === 'blog');
+        const projectsPosts = posts.filter(({ node: { fields: { type } } }) => type === 'projects');
+        const otherPosts = posts.filter(({ node: { fields: { type } } }) => type !== 'blog' && type !== 'projects');
 
-          createPage({
-            path: post.node.fields.slug,
-            component: blogPost,
-            context: {
-              slug: post.node.fields.slug,
-              previous,
-              next,
-            },
-          })
-        })
+        createPostPages(blogPosts);
+        createPostPages(projectsPosts);
+        createPostPages(otherPosts);
       })
     )
   })
