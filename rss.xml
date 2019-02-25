@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Agus Aliaga]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 08 Dec 2018 19:42:17 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android…]]></description><link>https://agustinaliagac.github.io/about-me/</link><guid isPermaLink="false">https://agustinaliagac.github.io/about-me/</guid><content:encoded>&lt;p&gt;I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android developer. During this period of time, I worked for a couple of startups, where I learned how to work in a fast-moving work environment.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Agus Aliaga]]></title><description><![CDATA[A blog where I (sometimes) publish.]]></description><link>https://agustinaliagac.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Feb 2019 22:59:24 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android…]]></description><link>https://agustinaliagac.github.io/about-me/</link><guid isPermaLink="false">https://agustinaliagac.github.io/about-me/</guid><content:encoded>&lt;p&gt;I’m a Software Developer, a husband, and a dog owner from Córdoba, Argentina. I began my journey in tech by working as a native Android developer. During this period of time, I worked for a couple of startups, where I learned how to work in a fast-moving work environment.&lt;/p&gt;
 &lt;p&gt;I became a goal-oriented person, with a great passion for what I do. Later I decided I wanted to expand my knowledge in other fields, so I started learning web development with Javascript. As a consequence, I got to participate in web projects and gain a good amount of experience.&lt;/p&gt;
-&lt;p&gt;Currently I’m still learning and hoping I can make enough time to get into AI / Machine Learning. Sometimes I also write on my blog about things that I care about. I also enjoy music, playing drums and guitar (or at least I try), and suck at 99% of sports.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Santex Metrics]]></title><description><![CDATA[Tech stack Javascript (ES2015), React.js, Node.js, GraphQL, Apollo, ESLint, Lodash FP, Firebase Auth, MySQL, Sequelize ORM, Functional…]]></description><link>https://agustinaliagac.github.io/projects/santex-metrics/</link><guid isPermaLink="false">https://agustinaliagac.github.io/projects/santex-metrics/</guid><pubDate>Fri, 30 Nov 2018 23:46:37 GMT</pubDate><content:encoded>&lt;br /&gt;
-Internal project at Santex that allows PMs to track their project&apos;s metrics (rework, completion, margin, release count, etc.). These metrics are visualized afterwards in another platform called Grafana. It was a good opportunity for me to learn GraphQL and use it later for bigger projects.
-This small (but end-to-end app) handles data queries and mutations, customized authentication through Firebase, local sorting and filtering, Material UI components, and autocomplete components using Downshift. It was also a good place to start playing with functional programming concepts.
+&lt;p&gt;Currently I’m still learning and hoping I can make enough time to get into AI / Machine Learning. Sometimes I also write on my blog about things that I care about. I also enjoy music, playing drums and guitar (or at least I try), and suck at 99% of sports.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Software Project Metrics]]></title><description><![CDATA[Tech stack Javascript (ES2015), React.js, Node.js, GraphQL, Apollo, ESLint, Lodash FP, Firebase Auth, MySQL, Sequelize ORM, Functional…]]></description><link>https://agustinaliagac.github.io/projects/santex-metrics/</link><guid isPermaLink="false">https://agustinaliagac.github.io/projects/santex-metrics/</guid><pubDate>Fri, 30 Nov 2018 23:46:37 GMT</pubDate><content:encoded>&lt;br /&gt;
+Web application that allows PMs to track their project&apos;s metrics (rework, completion, margin, release count, etc.). These metrics are visualized afterwards in another platform called Grafana. It was a good opportunity for me to start learning GraphQL and Apollo.
+This small (but end-to-end app) handles data queries and mutations, customized authentication through Firebase, local sorting and filtering, and a good number of customized components. It was also a good place to start playing with functional programming concepts.
 All the data is sorted, and filtered through data pipelines which are composed curried functions with lodash/fp.
 &lt;h4&gt;Tech stack&lt;/h4&gt;
 &lt;p&gt;Javascript (ES2015), React.js, Node.js, GraphQL, Apollo, ESLint, Lodash FP, Firebase Auth, MySQL, Sequelize ORM, Functional Programming&lt;/p&gt;
@@ -47,7 +47,7 @@ All the data is sorted, and filtered through data pipelines which are composed c
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-c1af7.png&quot;
+    href=&quot;/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-86f26.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -59,21 +59,21 @@ All the data is sorted, and filtered through data pipelines which are composed c
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 44.91922876498176%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz31RW06EQBDkSgYSTeS98wYWVvEe3sgD+LF7w7ZqZAiu0Y/K0FXV1T1DdjVKbkRd7rhW5Y/6F5rq+7RabmOI/Z8hyMcUJHvuemmMkfqADiLPSmtpnZPGWtRWSqXjdwR4ehp4Ou/FDIOUbSuZBTkiwMMUIAQYl/NZHGpqA7QBvAdvlIo+B373Ay+Xi7y9rvBryU6nkziaYTKYpgEPk96+LYMB6olLUOilNmK7aZqEWRmFgC0YSjDMo1bYhiHUIsdrcegGBqW+ZVlkXdc4JGMjheMGnJbqNIgB9B43TNo8zzGU+n7ldK04HXXa0G9N+7McNqSHmzOM0Azs+z6a79+HPIfFt4KRYH0P8gx3CK74l/M8l6Io/gT16PnH9wCtLnJ5f3qUL6SFS38rwXGpAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 47.22222222222222%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABPUlEQVQoz6VRSU7EMBD0/5/CMMdchjtfQOIIzAxZHGexEzuJU3QZGQWJG5FKblf1Uu4oO1p477EtS8IaAvZtS1iEX2afTmpxXRGXb9hhgB3HhMlaOKkbnIXqug4jBefSSUzzjCAJjAcpJNw0YSYvjZumQVEUeDyf8XA64elyQS25Vd9BVVUFwhiTEhutU4NJGvBe1/WPngeO4qgW7lqW0MKX9zs+TIt33UDlYjriyefHGMGPjpw4JxauRNZAUKdGLu47vNRpP6OUXooTKbIR41zIInLUOGiV/WVQ1/KSUrBKzD0OwaO1I1Tf98mBlWcwiTHd8mOj/Ew25zCCMfM4jANarmp24rCHykJ2w2bHYt6JHGf+iCDuwrrJjwtQdJXRti2O98z9xf+CGWDKF5jrM1T+k/9Co1F9vqG6veILGlqxSprDlUsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;screenshot2&quot;
         title=&quot;&quot;
-        src=&quot;/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-fb8a0.png&quot;
-        srcset=&quot;/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-1a291.png 148w,
-/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-2bc4a.png 295w,
-/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-fb8a0.png 590w,
-/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-526de.png 885w,
-/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-fa2eb.png 1180w,
-/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-08f6a.png 1770w,
-/static/screenshot2-a76f35ab1d8bc809d5da34dc55c9b7e6-c1af7.png 1919w&quot;
+        src=&quot;/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-1a291.png 148w,
+/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-2bc4a.png 295w,
+/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-fb8a0.png 590w,
+/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-526de.png 885w,
+/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-fa2eb.png 1180w,
+/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-08f6a.png 1770w,
+/static/screenshot2-ae00d3544e521d3ac0ec9155058033ca-86f26.png 2880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -84,7 +84,7 @@ All the data is sorted, and filtered through data pipelines which are composed c
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-ef9ea.png&quot;
+    href=&quot;/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-86f26.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -96,21 +96,21 @@ All the data is sorted, and filtered through data pipelines which are composed c
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 44.739583333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABS0lEQVQoz3WRW3KCQBRE2YVaGl7DUxYQq+DDiDzE8GFVNMn+F9LpnoilZfJxvDNy76FncM4mwMWEuHgvV1yc3d/6HQbEx1fg49P3bujZRT2ai2NbP6IIYxrDWfk+PGPg3uGZCGGa4q1pUfc92sMB290O5XaLisR5DjcMb/iUhRS7dDmGgoSbiDXmA5EmCfIsw0BZ17YYKTwdjxiGAe1+j2K9hqFomlHvmv9FkYETBAEXESQO2aQqUiZ8p0TCuq7RU3rUvuvssOam3piBEobQvKMfCfU2W69yNYzjaAV7pprWTdM8CNWfMWHOa9DeCvWG+4TaZ0zYU9AyoYT2uNf1X0JhhfdHnghJTumJx+yIUh1YJe15r0VRPAh1PUL3ehMq3ZRwqpvN5oGyLFFVlb0On19Us1OvHJ6+8mKxwH/M5/MnZrPZcx9ZkdflEj/pchBFnjPKlwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 47.77777777777777%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABxElEQVQoz4WSyU4CQRRF+18cNurGqH+hxjE4bdy4M7Gxh+oGFyKDKIQv8DNcggkrgkujAcLGnQsZBJpuhr6+VwiamGglJ/Wqut7NvVWtLB/tY2FvF/PEXGAbM1vrE2aJ6c21bzZWiTVM0Ty/s4nlwwCWiMWDAFZIh7WUUCiEcDgM27YRj8eRy+XwkM3KOUtzoVD4xWOxiHw+j0gkAsuycEH9FvUzihACLKppGlKpFPq9HupuF47r4q/hOA6SySS43yKCloBJ4hNBXdelYKPZRJsODwYD9Pt92cg10+l00G63ZV2v1xGlRNxvk5AqvgTZMgsahoF0Oo232jtaXQceNXmeh1arheFwKOE1i3LN+8nrawjqZw3dtiAIxTTNSWQW5IMexfYpVo/msSPf96Wg43Tpi48PSnIVi/12yI/BgqqqjiI3GnC7o/tz6R6r1SpqtZpcszv+zqP54SCRSMAkIYOuSzr8GZkdZjIZeW/s5u9Bj9Z8xc3NrYzLpswQv3R4FJlt86PEKEK5XEalUkGpVJL1TyrE80sZT4/3KD7c4TISlX3Col/GUGHqp1B4Ywy7DAaD/3KuCcKW53WdMaGpJ9DPjvEJqC5RkB0yt6wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;screenshot3&quot;
         title=&quot;&quot;
-        src=&quot;/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-fb8a0.png&quot;
-        srcset=&quot;/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-1a291.png 148w,
-/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-2bc4a.png 295w,
-/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-fb8a0.png 590w,
-/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-526de.png 885w,
-/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-fa2eb.png 1180w,
-/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-08f6a.png 1770w,
-/static/screenshot3-9a760307640b12b47a534e6e44dd6ae6-ef9ea.png 1920w&quot;
+        src=&quot;/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-1a291.png 148w,
+/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-2bc4a.png 295w,
+/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-fb8a0.png 590w,
+/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-526de.png 885w,
+/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-fa2eb.png 1180w,
+/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-08f6a.png 1770w,
+/static/screenshot3-b6f4037d75c2c5d4201fa04e1a1c45f8-86f26.png 2880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -121,7 +121,7 @@ All the data is sorted, and filtered through data pipelines which are composed c
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-ef9ea.png&quot;
+    href=&quot;/static/screenshot4-eee33406d8d844e385848c9d0287da29-86f26.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -133,21 +133,21 @@ All the data is sorted, and filtered through data pipelines which are composed c
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 44.427083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAA+klEQVQoz62Pa26EMAyEc6NKILWqSsJjSciDwi7bU/RGPcIue8fpGMEK9V8lfnyyPbHHjrq7FrOzmE3x5L5EvVLsWOtyjfaEx2fC7B1uvsPPeYB6bxoY51DsqEKE7jp8WIvSexjmW63X3FDX7NVti4r5KSZUzFXHpj5GBDZFPgjnYUBkvbyFgEREdxyQPk+jQEQP1K+XC76mCX1KUA0vdHzc6MSIseWwpeFSrzjW9g8yM44j+r5fepQIUnhuCvxqlGu5eTNL3CqasDcXRJO5iddN03XpVVpr1HWNsiyfGGP+xTYnXirLMhxFTlSe5ziCjLwcakiz77dX/ALApj//baEu7QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 47.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABwklEQVQoz4WSzWsTURTF52914yozMpNkJh8zmlUWpWlqJSQKCpU0wawEqd120dhaxEVjEFe6mpQ6iQnz9d58HO8dG5SKeOHwHsO9vzmH+5RarYZGowHHtmGZJp4NnuL9xQWmZ2c4n07x4fISn2azX7q6wow0p/vn+Ry9Xg/VSgV2swmrXodFLGULtB0HhmFgMpkgzXOswgB5luFuJfTNFwKCel5RL88+pFmn1YJJUMUkV5ZloUl/0XUdo9EIfhAgpqGMhsIwRBRFSAmUSAmQss2GyAmiMILneVgsFliuVtjtdKAwjF3aFJmB4/EYvu9Tf4KcgAHBBUH4Lgl66l2j737D8eoGP6gnS1OkpCiOsdft/hH5DlCyG6oNufGWS4Bg1yLG6xsXg69f8PH7ooBwmpASBDTTZSA7rFN2hqqqWgAFxZW3rtbrNVzXhWTH5IQjI0chKRPEBOW+SArscOQtjB1ul/K/EmKDfP0OJ2/fYH//MQb9PjoHT2DZDpRqtQoWL6dcLqPdbheLGQ6Hf+moOI9wePgCL5930Go9gqZp0I0yjAf3Yer3fgO3YpelUqmI/29pUDWjMMBGTNOi96ijYqj4CXbLNq3qlY88AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;screenshot4&quot;
         title=&quot;&quot;
-        src=&quot;/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-fb8a0.png&quot;
-        srcset=&quot;/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-1a291.png 148w,
-/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-2bc4a.png 295w,
-/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-fb8a0.png 590w,
-/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-526de.png 885w,
-/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-fa2eb.png 1180w,
-/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-08f6a.png 1770w,
-/static/screenshot4-1bd28afb38ecf8678f4fc021993dd783-ef9ea.png 1920w&quot;
+        src=&quot;/static/screenshot4-eee33406d8d844e385848c9d0287da29-fb8a0.png&quot;
+        srcset=&quot;/static/screenshot4-eee33406d8d844e385848c9d0287da29-1a291.png 148w,
+/static/screenshot4-eee33406d8d844e385848c9d0287da29-2bc4a.png 295w,
+/static/screenshot4-eee33406d8d844e385848c9d0287da29-fb8a0.png 590w,
+/static/screenshot4-eee33406d8d844e385848c9d0287da29-526de.png 885w,
+/static/screenshot4-eee33406d8d844e385848c9d0287da29-fa2eb.png 1180w,
+/static/screenshot4-eee33406d8d844e385848c9d0287da29-08f6a.png 1770w,
+/static/screenshot4-eee33406d8d844e385848c9d0287da29-86f26.png 2880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
