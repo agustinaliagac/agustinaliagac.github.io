@@ -9,6 +9,15 @@ Lark](https://unsplash.com/photos/W1B2LpQOBxA?utm_source=unsplash&utm_medium=ref
 on
 [Unsplash](https://unsplash.com/search/photos/shop-online?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</span>
 
+## — Edit —
+
+The scrapping approach exposed in this article was interesting as a proof of concept and may still be useful for some specific scenarios. However, you should know that scraping data like this has a number of disadvantages:
+
+- **High I/O and memory usage:** Launching a web scraping task dynamically by user requests is too heavy and does not scale well for obvious reasons. Try to perform your scraping tasks recurrently and in a controlled fashion, and not user-driven.
+- **Does not handle client-side rendering:** x-ray is an awesome tool which by default does not perform client-side rendering. This means that, if an e-commerce site you’re trying to scrape uses client-side rendering (maybe using Angular, React, etc.), you’ll have to plug in some extra functionality to make it work. In that case, performance will be affected because of the expensive computational task that you’re adding to the scraper.
+- **Web scraping is babysitting:** Any serious project that relies on web scraping to run a business should know that web applications change a lot. And as they mutate, your scraper breaks because your DOM selectors stop matching the actual data. The fact that you have to constantly keep your selectors up to date is what we usually call “babysitting”. I’m intrigued by other information extraction techniques that could solve this problem, but at this point, I don’t have that knowledge.
+## - Finish edit -
+
 This is a quick story about how I created a simple but end-to-end e-commerce
 scraping web application called** “crawl-io”**. The goal behind this article is
 to provide an example of an implementation so that other projects can borrow
